@@ -28,3 +28,4 @@ app.delete('/api/items/:id', (req, res) => {
     const itemId = req.params.id;
     res.json({ message: `Item with id ${itemId} deleted` });
 });
+
