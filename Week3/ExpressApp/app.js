@@ -18,3 +18,14 @@ const loggerMiddleware = (req, res, next) => {
 };
 app.use(loggerMiddleware);
 
+app.set('view engine', 'ejs');
+
+app.get('/about', (req, res) => {
+    res.render('about', { title: 'About' });
+});
+
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+});
+
+
