@@ -2,8 +2,8 @@ const fs = require('fs');
 const readline = require('readline');
 
 // Specify the path to the large file and the word to count
-const filePath = '.';
-const wordToCount = 'specificWord';
+const filePath = '/home/njange/Projects/PLP-Node/Week2/Lesson1/Largefile.txt';
+const wordToCount = 'Alex';
 
 // Initialize the count
 let count = 0;
