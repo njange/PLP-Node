@@ -1,0 +1,12 @@
+{
+    "database": {
+      "user": "database_user",
+      "host": "localhost",
+      "database": "database_name",
+      "password": "database_password",
+      "port": 5432
+    },
+    "api": {
+      "url": "https://api.example.com/data"
+    }
+  }
