@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(session({
     secret: 'secret',
     resave: false,
-    saveUninitialized: false, 
+    saveUninitialized: false,
 }));
 
 // Initialize Passport and use session
