@@ -1,4 +1,4 @@
-
+// Initialize Express, Passport, and session middleware
 const express = require('express');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
